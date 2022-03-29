@@ -1,15 +1,15 @@
 import { Navigate } from 'react-router-dom';
 import DashboardLayout from './components/DashboardLayout';
 import MainLayout from './components/MainLayout';
-import Account from './pages/Account';
+import Account from './pages/account';
 import CustomerList from './pages/CustomerList';
 import Dashboard from './pages/Dashboard';
 import EditCustomer from './pages/EditCustomer';
-import Login from './pages/Login';
+import Login from './pages/login';
 import NotFound from './pages/NotFound';
 import ProductList from './pages/ProductList';
-import Register from './pages/Register';
-import Settings from './pages/Settings';
+import Register from './pages/register';
+import Settings from './pages/settings';
 
 const routes = [
     {
